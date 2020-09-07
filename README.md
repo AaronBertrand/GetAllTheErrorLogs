@@ -1,5 +1,5 @@
 # GetAllTheErrorLogs
-Powershell to assemble a timeline combining salient events from Windows Event Log, Failover Cluster log, and SQL Server errorlog.
+PowerShell to assemble a timeline combining salient events from Windows Event Log, Failover Cluster log, and SQL Server errorlog.
 
 I have a need to build timelines surrounding critical events in our environment, like an AG or FCI failover.
 

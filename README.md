@@ -7,4 +7,4 @@ For example, I want to list out all of the **important** things that happened, a
 
 I can certainly get this information independently from `Get-EventLog` and `Get-SqlErrorLog`, but I want to build something more powerful that will give me the combined list in a usable format. I envision a simple command that can take a server name, a timestamp, and a window as a starting point, and just go get me all the stuff, but leave out all the noise. We can assemble a list of event IDs we care about and event IDs we don't, and those would act as filters, but could be overridden.
 
-The code right now is very simplistic - it doesn't filter out duplicates, it doesn't capture all of the events I think are important, and it doesn't even touch the cluster log yet. But it gives an idea where I'm going.
+The code right now is very simplistic - it doesn't filter out duplicates, it doesn't capture all of the events I think are important, and it doesn't even touch the cluster log yet. But it gives an idea where I'm going. I talk a little more about it in [this T-SQL Tuesday post](https://sqlblog.org/2020/09/08/t-sql-tuesday-130-automate).

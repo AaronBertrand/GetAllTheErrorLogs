@@ -15,7 +15,7 @@ $Logs = @("System","Application","HardwareEvents","Microsoft-Windows-FailoverClu
           "Microsoft-Windows-FailoverClustering/Operational");
 
 $Providers = @("Microsoft-Windows-FailoverClustering","Microsoft-Windows-FailoverClustering-Manager",
-               "MSSQLSERVER","EventLog","Service Control Manager","nssm");
+               "MSSQLSERVER","EventLog","Service Control Manager");
 
 # foreach ($server in $Servers)
 # {
